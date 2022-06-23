@@ -1,2 +1,9 @@
 Link para download do Git: https://git-scm.com/downloads
 O Git Bash é um terminal extendido para otimizar o uso do Git.
+O Git é um sistema de versionamento de código distribuído.
+O comando Git Clone Faz um clone do repositório remoto em seu repositório local.
+O Git irá pedir para você fazer um pull e depois um push quando você tenta empurrar(push) o código para o GitHub e o seu commit não representa o estado mais atual do repositório.
+O comando Git init Inicializa um repositório git na pasta em questão.
+O comando dir retorna uma lista com o conteúdo contido naquele diretório específico.
+Um sistema distribuído é um sistema que possui múltiplas cópias de si mesmmo em diferentes locais.
+Markdown é um arquivo que usa caracteres especiais como # para formatar o texto.
