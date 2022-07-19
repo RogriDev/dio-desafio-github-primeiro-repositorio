@@ -1,0 +1,28 @@
+Lista encadeada é o Conjunto de objetos organizados de forma linear, chamado de nó, que pode mandar uma
+referência para o nó seguinte.
+
+Wildcards é o nome dado ao identificador "?" em códigos genéricos, apresentando tipo desconhecido e 
+podendo ser utilizado em algumas situações como um tipo de parâmetro ou uma variável local.
+
+Apenas tipos de dados primitivos são : int, byte, short e long.
+
+Tipo de dados de programação (ex: int, short, float, etc) não apresentam o mesmo tamanho de memória
+consumida no hardware porque dependendo do tipo de dado, a memória consumida como os valores mínimos e
+máximos e a precisão mudam, facilitando a alocação dentro das memorias.
+
+O computador possui dois tipos de memorias: Memorias Primárias e Secundárias.
+
+As diferenças entre memorias primárias e secundárias:
+Memórias Primárias normalmente guardam informações por curtos períodos de tempo, não podendo ligar o 
+computador sem sua presença, já as Secundárias guardam as informações permanentemente, sendo assim não
+sendo estritamente necessária ao funcionamento do computador.
+
+Wildcards na prática na declaração de uma classe:
+
+public class No <T> {}
+
+O Generics é usado para evitar casting excessivo e código redundantes, além de encontrar erros em tempo
+de compilação.
+
+As atribuições em Java são por cópia de valor sempre. Com tipos primitivos copiamos o valor em memória e com os objetos
+com objetos copiamos o valor da referência em memória, sem duplicar o objeto.
